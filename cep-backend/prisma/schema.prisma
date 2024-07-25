@@ -1,0 +1,24 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model CepSearch {
+  id        Int      @id @default(autoincrement())
+  cep       String
+  logradouro String
+  complemento String?
+  unidade String?
+  ibge String?
+  gia String?
+  ddd String?
+  siafi String?
+  bairro    String
+  localidade String
+  uf        String
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,8 @@
+axios para integração com a api do viacep
+FiSearch para pegar icone de lupa
+useState para manipular os estados a partir de uma função
+if input === '0' (se ele não digitar nada emite um alerta "Preencha algum CEP!")
+prisma db push, prisma generate para criar a tabela do banco de dados
+cors para comunicação entre servidores diferentes (habilitado)
+inserido os campos do front para o back com o prisma
+
